@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
@@ -9,6 +10,7 @@
 }
 
 .container {
+    height: calc(100vh - 20px);
 	padding: 100px 20px;	
 	background-image: url("https://nova-missao-5-cafeteria.vercel.app/img/cafeteria.png");
 	background-position: center;
@@ -21,6 +23,7 @@
 
 .container h2 {
 	margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .lista-horarios {
