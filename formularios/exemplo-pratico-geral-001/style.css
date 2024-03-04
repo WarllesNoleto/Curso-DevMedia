@@ -35,8 +35,10 @@ body {
   .secao-background-capa {
     min-height: 500px;
     background-image: url('img/capa.jpg');
+    background-attachment: fixed;
     background-size: cover;
   }
+  
   .secao-background-conteudo {
     text-align: right;
     padding: 50px 20px;
